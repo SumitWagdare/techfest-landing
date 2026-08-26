@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techfest | IIT Bombay</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar glass">
+      <div class="logo">
+        <span class="tf-text">Techfest</span>
+        <span class="iitb-text">IIT Bombay</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about" class="magnetic">About</a></li>
+        <li><a href="#events" class="magnetic">Events</a></li>
+        <li><a href="#sponsors" class="magnetic">Sponsors</a></li>
+      </ul>
+      <a href="#register" class="btn primary magnetic">Register Now</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="hero-content">
+        <h2 class="hero-subtitle">Welcome to</h2>
+        <h1 class="hero-title glitch" data-text="An Aetherial Renaissance">An Aetherial Renaissance</h1>
+        <p class="hero-desc">Asia's Largest Science and Technology Festival</p>
+        <div class="hero-cta">
+          <a href="#explore" class="btn secondary magnetic">Explore Realm</a>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 class="section-title">The Nexus of <span class="highlight">Innovation</span></h2>
+            <p>Techfest is the annual science and technology festival of Indian Institute of Technology Bombay. It stands out as Asia's Largest Science and Technology Festival, patronized by UNESCO, UNICEF, and Make In India.</p>
+            <div class="stats-container">
+              <div class="stat-box glass">
+                <h3 class="stat-num">175K+</h3>
+                <p class="stat-label">Footfall</p>
+              </div>
+              <div class="stat-box glass">
+                <h3 class="stat-num">2500+</h3>
+                <p class="stat-label">Colleges</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual glass">
+            <div class="orb-container">
+              <div class="orb orb-1"></div>
+              <div class="orb orb-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events section-padding" id="events">
+      <div class="container">
+        <h2 class="section-title center">Explore the <span class="highlight">Aether</span></h2>
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <div class="event-card glass magnetic-card">
+            <div class="card-icon">🏆</div>
+            <h3>Competitions</h3>
+            <p>Challenge your intellect in high-stakes robotics, coding, and engineering challenges.</p>
+            <a href="#" class="card-link">View Challenges <span>→</span></a>
+          </div>
+          <!-- Card 2 -->
+          <div class="event-card glass magnetic-card">
+            <div class="card-icon">🎙️</div>
+            <h3>Lectures</h3>
+            <p>Gain insights from Nobel Laureates, industry stalwarts, and global visionaries.</p>
+            <a href="#" class="card-link">See Speakers <span>→</span></a>
+          </div>
+          <!-- Card 3 -->
+          <div class="event-card glass magnetic-card">
+            <div class="card-icon">🔬</div>
+            <h3>Exhibitions</h3>
+            <p>Witness cutting-edge technology and international exhibits firsthand.</p>
+            <a href="#" class="card-link">Explore Tech <span>→</span></a>
+          </div>
+          <!-- Card 4 -->
+          <div class="event-card glass magnetic-card">
+            <div class="card-icon">🛠️</div>
+            <h3>Workshops</h3>
+            <p>Hands-on learning experiences in AI, Deep Learning, and Robotics.</p>
+            <a href="#" class="card-link">Join Workshops <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glass">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <h2>Techfest</h2>
+          <p>IIT Bombay</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="magnetic">FB</a>
+          <a href="#" class="magnetic">IG</a>
+          <a href="#" class="magnetic">TW</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
